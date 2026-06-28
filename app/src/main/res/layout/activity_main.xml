@@ -7,6 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/secreto"
+        android:layout_width="48dp"
+        android:layout_height="23dp"
+        android:text="Secreto"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="wrap_content"
@@ -72,6 +83,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.031"
-        app:srcCompat="@drawable/download" />
+        app:srcCompat="@drawable/logodownload" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

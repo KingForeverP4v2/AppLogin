@@ -19,10 +19,26 @@ class HomeActivity : AppCompatActivity() {
             insets
         }
 
-        val btnBoleto = findViewById<Button>(R.id.btnBoleto)
-        btnBoleto.setOnClickListener {
-            val intent = Intent(this, BoletoActivity::class.java)
-            startActivity(intent)
+        findViewById<Button>(R.id.btnBoleto).setOnClickListener {
+            startActivity(Intent(this, BoletoActivity::class.java))
+        }
+        findViewById<Button>(R.id.bntReserva).setOnClickListener {
+            startActivity(Intent(this, ReservaActivity::class.java))
+        }
+        findViewById<Button>(R.id.bntAutorização).setOnClickListener {
+            startActivity(Intent(this, AutorizacaoActivity::class.java))
+        }
+        findViewById<Button>(R.id.bntMural).setOnClickListener {
+            startActivity(Intent(this, ComunicadosActivity::class.java))
+        }
+        findViewById<Button>(R.id.bntPrestação_de_Contas).setOnClickListener {
+            startActivity(Intent(this, PrestacaoActivity::class.java))
+        }
+        findViewById<Button>(R.id.bntMudança).setOnClickListener {
+            startActivity(Intent(this, MudancaActivity::class.java))
+        }
+        findViewById<Button>(R.id.bntContato_Portaria).setOnClickListener {
+            startActivity(Intent(this, ContatosActivity::class.java))
         }
     }
 }

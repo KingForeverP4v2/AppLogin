@@ -1,4 +1,4 @@
-package br.com.novoprojeto.applogin.network
+package com.example.applogin.network
 
 import com.example.applogin.service.ApiService
 import retrofit2.Retrofit

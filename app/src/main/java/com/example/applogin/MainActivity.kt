@@ -9,7 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import br.com.novoprojeto.applogin.network.ApiClient
+import com.example.applogin.network.ApiClient
 import com.example.applogin.model.Login
 import retrofit2.Call
 import retrofit2.Callback
@@ -67,6 +67,11 @@ class MainActivity : AppCompatActivity() {
         val btnCadastro = findViewById<Button>(R.id.button4)
         btnCadastro.setOnClickListener {
             val intent = Intent(this, CadastroLogin::class.java)
+            startActivity(intent)
+        }
+        val btnSecreto = findViewById<Button>(R.id.secreto)
+        btnSecreto.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
 

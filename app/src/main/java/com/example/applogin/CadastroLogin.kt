@@ -1,7 +1,6 @@
 package com.example.applogin
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -10,7 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import br.com.novoprojeto.applogin.network.ApiClient
+import com.example.applogin.network.ApiClient
 import com.example.applogin.model.Usuario
 import retrofit2.Call
 import retrofit2.Callback
